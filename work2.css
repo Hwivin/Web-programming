@@ -1,0 +1,85 @@
+.map {
+    background-image: url("images/k_map.png");
+    position: relative; left: 210px;
+    width:940px;
+    height:940px;
+}
+.map a{
+    position: absolute;
+    width: 160px;
+    height:62px;
+    border-radius:15%;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-indent: -9999em;
+
+}
+.map a:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.words{
+    text-align: center;
+    box-sizing: border-box;
+    color:rgba(80, 83, 221, 0.3);
+    transition: 0.5s;
+}
+.Seoul{
+    top:133px;
+    left:212px;
+}
+.Jeju{
+    bottom: 43px;
+    left: 151px;
+}
+.Gueonggy{
+    top: 220px;
+    left: 315px;
+}
+.Gangwon{
+    top: 139px;
+    right: 323px;
+}
+.Incheon{
+    top: 208px;
+    left: 58px;
+}
+.Sejong{
+    top: 328px;
+    left: 125px;
+}
+.Chungbuk{
+    top: 301px;
+    left: 363px;
+}
+.Daejeon{
+    top: 413px;
+    left: 296px;
+}
+.Daegu{
+    top: 423px; 
+    right: 230px;
+}
+.Jeonbuk{
+    bottom: 384px;
+    left: 175px;
+}
+.Ulsan{
+    bottom: 372px;
+    right: 152px;
+}
+.Guangju{
+    bottom: 300px;
+    left: 100px;
+}
+.Gyeongnam{
+    bottom: 316px;
+    right: 369px;
+}
+.Busan{
+    bottom: 278px;
+    right: 169px;
+}
+.Jeonnam{
+    bottom: 211px;
+    left: 104px;  
+}
